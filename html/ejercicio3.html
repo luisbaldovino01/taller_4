@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Tabla #3</title>
+</head>
+
+<body>
+
+    <table border="1">
+        <tr>
+            <th colspan="4">General Admission Registration</th>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="width: 250px;">
+
+                <form>
+                    <br><label>Name </label>
+                    <input type="text" placeholder="First Name" size="6">
+                    <input type="text" placeholder="Last Name" size="6"><br><br>
+
+                    <label>Email</label>
+                    <input type="email" placeholder="sample@example.com"><br><br>
+
+                    <label>Gender</label>
+                    <input type="radio" name="Gender">Male
+                    <input type="radio" name="Gender">Female<br><br>
+
+                    <label>Phone</label>
+                    <input type="number"><br><br>
+
+                    <label>Emergency Contact</label><br>
+                    <input type="number"><br><br>
+
+                    <label for="parking">Do you require parking?</label><br>
+                    <input type="radio" name="parking">Yes
+                    <input type="radio" name="parking">No<br><br>
+
+                    <label for="room">What is your room preference?</label><br>
+                    <input type="radio" name="room">Single Room<br>
+                    <input type="radio" name="room">Shared Room<br>
+                    <input type="radio" name="room">No Room Needed<br><br>
+            </td>
+            <td colspan="2" style="width: 250px;">
+                <label for="restrictions">Do you have dietary restrictions?</label><br>
+                <input type="radio" name="restrictions">None<br>
+                <input type="radio" name="restrictions">Vegetarian<br>
+                <input type="radio" name="restrictions">Glutten Allergy<br>
+                <input type="radio" name="restrictions">Lactose Allergy<br>
+                <input type="radio" name="restrictions">Nut Allergy<br>
+                <input type="radio" name="restrictions">Shellfish Allergy<br><br>
+
+                <label for="activities">What activities will you attend?</label><br>
+                <input type="radio" name="activities">Awards Gala Dinner<br>
+                <input type="radio" name="activities">Luncheon<br>
+                <input type="radio" name="activities">Town Hall<br><br>
+
+                <label name="other">Do you want to see the list of other attendees and their profiles on the official event app?</label><br>
+
+                <input type="radio" name="other">Yes
+                <input type="radio" name="other">No
+                <br><br><input type="submit">
+            </td>
+        </tr>
+        </form>
+    </table>
+
+</body>
+
+</html>
